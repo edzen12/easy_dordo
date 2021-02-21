@@ -5,6 +5,10 @@ body {
   position: relative;
   background: #f9f9fb;
 }
+.navbar-light .navbar-toggler {
+    color: #787be8;
+    border-color: #787be8;
+}
 
 a {
   color: inherit;
@@ -355,6 +359,10 @@ h3 {
   text-align: center;
   overflow: hidden;
 }
+.carousel .carousel-item a{
+  color: #999 !important;
+  text-decoration: none;
+}
 
 .carousel .carousel-item .img-box {
   width: 135px;
@@ -370,6 +378,20 @@ h3 {
   height: 100%;
   display: block;
   border-radius: 50%;
+}
+
+.carousel .carousel-item .img-box_prod{
+/*  width: 135px;
+  height: 135px;*/
+  margin: 0 auto;
+  padding: 5px;
+  border: 1px solid #ddd;
+}
+
+.carousel .img-box_prod img {
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
 .carousel .testimonial {
