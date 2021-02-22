@@ -418,6 +418,7 @@ h3 {
   height: 100%;
   display: block;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 .carousel .carousel-item .img-box_prod{
